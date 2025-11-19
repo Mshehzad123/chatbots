@@ -1,0 +1,140 @@
+{
+  "company_name": "Softerio Solutions",
+  "company_tagline": "Empowering your ideas with cutting-edge, reliable, and innovative software solutions",
+
+  "contact": {
+    "email": "numan@softeriosolutions.com",
+    "phone": "+92-303-6057586",
+    "website": "www.softeriosolutions.com",
+    "address": "Lahore, Punjab, Pakistan",
+    "whatsapp": "https://wa.me/923036057586",
+    "google_meet": "https://meet.google.com/"
+  },
+
+  "language_support": {
+    "auto_detect": true,
+    "supported_languages": ["English", "Urdu", "Hindi", "Arabic"]
+  },
+
+  "price_keywords": [
+    "price", "kitna", "cost", "budget", "estimate", "paisa",
+    "charges", "rate", "qeemat", "fees", "payment", "amount"
+  ],
+
+  "price_policy": {
+    "redirect_message_en": "For accurate pricing, we need your project details. Please contact us on WhatsApp, Email, or book a Google Meet.",
+    "redirect_message_ur": "Sahi price bataanay ke liye humein aapke project ki details chahiye. Baraeh-karam WhatsApp, Email ya Google Meet per rabta karein.",
+    "whatsapp": "https://wa.me/923036057586",
+    "email": "numan@softeriosolutions.com",
+    "meeting": "https://meet.google.com/"
+  },
+
+  "services": [
+    { "name": "Artificial Intelligence (AI)", "details": "Custom AI automation, NLP bots, machine learning models, and smart systems." },
+    { "name": "Machine Learning (ML)", "details": "Predictive analytics, recommendation engines, model training and deployment." },
+    { "name": "Web Development", "details": "Full-stack websites, business portals, dashboards, and e-commerce platforms." },
+    { "name": "Mobile App Development", "details": "Android, iOS, and cross-platform app development." },
+    { "name": "Software Development", "details": "ERP, CRM, HRM, POS, Inventory, and custom internal systems." },
+    { "name": "Cloud Services", "details": "AWS, Google Cloud, cloud migration, and app hosting." },
+    { "name": "UI/UX Design", "details": "Wireframes, user flows, modern UI, and design systems." },
+    { "name": "Cybersecurity", "details": "App security audits, penetration testing, and data protection." },
+    { "name": "Technology Consulting", "details": "Business strategy, system consultancy, and startup tech guidance." }
+  ],
+
+  "project_process": {
+    "english": [
+      "1. Requirement Gathering – Understanding your business needs.",
+      "2. Planning – Finalizing scope, features, and timelines.",
+      "3. UI/UX Design – Creating wireframes and modern user interface.",
+      "4. Development – Backend, frontend, and full functionality.",
+      "5. Testing – QA, bug fixing, and performance optimization.",
+      "6. Deployment – Publish on server, app store, or cloud.",
+      "7. Support & Maintenance – Ongoing updates and improvements."
+    ],
+    "urdu": [
+      "1. Requirement Gathering – Aapke business ki needs samajhna.",
+      "2. Planning – Scope, features aur timeline final karna.",
+      "3. UI/UX Design – Wireframes aur modern design banana.",
+      "4. Development – Backend aur frontend tayyar karna.",
+      "5. Testing – Bugs fix karna aur quality ensure karna.",
+      "6. Deployment – Server, app store ya cloud par launch karna.",
+      "7. Support & Maintenance – Future updates aur support."
+    ]
+  },
+
+  "portfolio": {
+    "available_on_request": true,
+    "portfolio_message_en": "Sure! Here is our portfolio website where you can see all our work:",
+    "portfolio_message_ur": "Bilkul! Ye hamari portfolio website hai jahan aap hamara tamam kaam dekh saktay hain:",
+    "portfolio_link": "https://www.softeriosolutions.com/portfolio"
+  },
+
+  "common_questions": {
+    "company_info": [
+      "Who are you?",
+      "What does your company do?",
+      "When was your company founded?",
+      "How big is your team?",
+      "Do you work internationally?"
+    ],
+    "services": [
+      "What services do you offer?",
+      "Do you build websites?",
+      "Do you create mobile apps?",
+      "Do you develop AI systems?",
+      "Can you automate my business?"
+    ],
+    "process": [
+      "How does your process work?",
+      "What is the development flow?",
+      "Do you give documentation?",
+      "Do you sign NDA?"
+    ],
+    "timeline": [
+      "How long will my project take?",
+      "What is the delivery time?",
+      "Can you do fast delivery?"
+    ],
+    "technical": [
+      "Which technologies do you use?",
+      "Do you provide hosting?",
+      "Will I get source code?",
+      "Do you provide maintenance?"
+    ],
+    "support": [
+      "Do you provide customer support?",
+      "Can I request changes?",
+      "How many revisions do you offer?"
+    ],
+    "portfolio": [
+      "Do you have a portfolio?",
+      "Can I see your past work?",
+      "Show me your portfolio"
+    ],
+    "team": [
+      "How experienced is your team?",
+      "Do you have dedicated developers?",
+      "Can I hire monthly developers?"
+    ],
+    "communication": [
+      "How can I contact you?",
+      "Do you have WhatsApp?",
+      "Can we talk on a call?",
+      "Do you have email support?"
+    ],
+    "payment": [
+      "How do I pay?",
+      "Do you provide invoice?",
+      "Do you take advance payment?",
+      "Do you accept international payments?"
+    ]
+  },
+
+  "faq_answers": {
+    "nda": "Yes, we provide NDA for all confidential projects.",
+    "delivery": "Delivery timeline depends on project size, features, and complexity.",
+    "source_code": "Yes, you will get full source code upon project completion.",
+    "support": "We offer long-term support and maintenance packages.",
+    "communication": "You can contact us on WhatsApp, Email, or Google Meet anytime."
+  }
+}
