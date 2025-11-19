@@ -1,14 +1,8 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, request, jsonify
 from chatbot import CompanyChatbot
-import os
 
 app = Flask(__name__)
 chatbot = CompanyChatbot()
-
-@app.route('/')
-def index():
-    """Main page"""
-    return render_template('index.html')
 
 @app.route('/chat', methods=['POST'])
 def chat():
@@ -51,9 +45,12 @@ def company_info():
 
 if __name__ == '__main__':
     print("=" * 60)
-    print("🚀 Starting Softerio Solutions Chatbot Web App")
+    print("🚀 Softerio Solutions Chatbot API Server")
     print("=" * 60)
-    print("\nOpen your browser and go to: http://localhost:5000")
+    print("\nAPI Endpoints:")
+    print("  POST /chat - Chat with the bot")
+    print("  GET /company-info - Get company data")
+    print("\nServer running on: http://localhost:5000")
     print("Press Ctrl+C to stop the server\n")
     app.run(debug=True, host='0.0.0.0', port=5000)
 
