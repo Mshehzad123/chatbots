@@ -11,18 +11,19 @@ def chat():
         data = request.json
         user_message = data.get('message', '').strip()
         language = data.get('language', 'auto')
-        
+        debug = data.get('debug', False)  # Optional debug flag
+
         if not user_message:
             return jsonify({'response': 'Please enter a message!'})
-        
-        # Get response from chatbot
-        response = chatbot.chat(user_message, language)
-        
+
+        # Get response from chatbot with debug enabled for troubleshooting
+        response = chatbot.chat(user_message, language, debug=True)
+
         return jsonify({
             'response': response,
             'status': 'success'
         })
-    
+
     except Exception as e:
         return jsonify({
             'response': f'Sorry, an error occurred: {str(e)}',

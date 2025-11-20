@@ -1,24 +1,36 @@
 {
   "company_name": "Softerio Solutions",
   "company_tagline": "Empowering your ideas with cutting-edge, reliable, and innovative software solutions",
-
+  "company_description": "Softerio Solutions is a leading technology company specializing in AI, ML, web, and mobile app development. We provide innovative solutions to help businesses transform digitally and achieve their goals. With a team of experienced developers, designers, and consultants, we deliver high-quality software solutions tailored to your business needs.",
+  
+  "founded": "2020",
+  "team_size": "50+",
+  "clients": "100+",
+  "projects_completed": "200+",
+  "countries_served": ["Pakistan", "USA", "UK", "UAE", "Canada", "Australia", "Germany", "Saudi Arabia"],
+  
   "contact": {
     "email": "numan@softeriosolutions.com",
     "phone": "+92-303-6057586",
     "website": "www.softeriosolutions.com",
     "address": "Lahore, Punjab, Pakistan",
     "whatsapp": "https://wa.me/923036057586",
-    "google_meet": "https://meet.google.com/"
+    "google_meet": "https://meet.google.com/",
+    "linkedin": "https://www.linkedin.com/company/softerio-solutions",
+    "facebook": "https://www.facebook.com/softeriosolutions",
+    "twitter": "https://www.twitter.com/softeriosolutions",
+    "instagram": "https://www.instagram.com/softeriosolutions"
   },
 
   "language_support": {
     "auto_detect": true,
-    "supported_languages": ["English", "Urdu", "Hindi", "Arabic"]
+    "supported_languages": ["English", "Urdu", "Hindi", "Arabic", "Punjabi", "Pashto"]
   },
 
   "price_keywords": [
     "price", "kitna", "cost", "budget", "estimate", "paisa",
-    "charges", "rate", "qeemat", "fees", "payment", "amount"
+    "charges", "rate", "qeemat", "fees", "payment", "amount",
+    "pricing", "quotation", "quote", "tariff", "expense"
   ],
 
   "price_policy": {
@@ -26,39 +38,316 @@
     "redirect_message_ur": "Sahi price bataanay ke liye humein aapke project ki details chahiye. Baraeh-karam WhatsApp, Email ya Google Meet per rabta karein.",
     "whatsapp": "https://wa.me/923036057586",
     "email": "numan@softeriosolutions.com",
-    "meeting": "https://meet.google.com/"
+    "meeting": "https://meet.google.com/",
+    "payment_methods": ["Bank Transfer", "PayPal", "Stripe", "Wise", "Cryptocurrency", "Cash on Delivery (Local)"],
+    "payment_terms": "We accept 50% advance payment and 50% on project completion. For long-term projects, we offer milestone-based payments."
   },
 
   "services": [
-    { "name": "Artificial Intelligence (AI)", "details": "Custom AI automation, NLP bots, machine learning models, and smart systems." },
-    { "name": "Machine Learning (ML)", "details": "Predictive analytics, recommendation engines, model training and deployment." },
-    { "name": "Web Development", "details": "Full-stack websites, business portals, dashboards, and e-commerce platforms." },
-    { "name": "Mobile App Development", "details": "Android, iOS, and cross-platform app development." },
-    { "name": "Software Development", "details": "ERP, CRM, HRM, POS, Inventory, and custom internal systems." },
-    { "name": "Cloud Services", "details": "AWS, Google Cloud, cloud migration, and app hosting." },
-    { "name": "UI/UX Design", "details": "Wireframes, user flows, modern UI, and design systems." },
-    { "name": "Cybersecurity", "details": "App security audits, penetration testing, and data protection." },
-    { "name": "Technology Consulting", "details": "Business strategy, system consultancy, and startup tech guidance." }
+    {
+      "name": "Artificial Intelligence (AI)",
+      "details": "Custom AI automation, NLP bots, machine learning models, and smart systems. We develop intelligent solutions that learn, adapt, and improve over time.",
+      "sub_services": [
+        "Natural Language Processing (NLP)",
+        "Computer Vision",
+        "Predictive Analytics",
+        "Chatbots & Virtual Assistants",
+        "Recommendation Systems",
+        "AI-powered Automation",
+        "Sentiment Analysis",
+        "Speech Recognition",
+        "Image Recognition",
+        "Fraud Detection Systems"
+      ],
+      "technologies": ["Python", "TensorFlow", "PyTorch", "OpenAI GPT", "BERT", "SpaCy", "NLTK"],
+      "use_cases": [
+        "Customer service automation",
+        "Data analysis and insights",
+        "Content generation",
+        "Smart search engines",
+        "Personalized recommendations"
+      ]
+    },
+    {
+      "name": "Machine Learning (ML)",
+      "details": "Predictive analytics, recommendation engines, model training and deployment. We build ML models that help businesses make data-driven decisions.",
+      "sub_services": [
+        "Supervised Learning Models",
+        "Unsupervised Learning",
+        "Deep Learning",
+        "Neural Networks",
+        "Model Training & Optimization",
+        "ML Model Deployment",
+        "Data Preprocessing",
+        "Feature Engineering",
+        "Model Evaluation & Testing",
+        "MLOps Pipeline Setup"
+      ],
+      "technologies": ["Python", "Scikit-learn", "XGBoost", "Keras", "MLflow", "Docker", "Kubernetes"],
+      "use_cases": [
+        "Sales forecasting",
+        "Customer churn prediction",
+        "Price optimization",
+        "Inventory management",
+        "Quality control automation"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "details": "Full-stack websites, business portals, dashboards, and e-commerce platforms. We create responsive, fast, and SEO-friendly websites.",
+      "sub_services": [
+        "Frontend Development",
+        "Backend Development",
+        "Full-Stack Development",
+        "E-commerce Platforms",
+        "Content Management Systems (CMS)",
+        "Progressive Web Apps (PWA)",
+        "API Development",
+        "Database Design",
+        "Web Hosting & Deployment",
+        "Website Maintenance"
+      ],
+      "technologies": ["React", "Vue.js", "Angular", "Node.js", "Django", "Flask", "Laravel", "PHP", "MySQL", "PostgreSQL", "MongoDB"],
+      "use_cases": [
+        "Business websites",
+        "Online stores",
+        "Admin dashboards",
+        "Portals and platforms",
+        "Landing pages"
+      ]
+    },
+    {
+      "name": "Mobile App Development",
+      "details": "Android, iOS, and cross-platform app development. We build native and hybrid mobile applications with excellent user experience.",
+      "sub_services": [
+        "iOS App Development",
+        "Android App Development",
+        "Cross-Platform Development",
+        "React Native Apps",
+        "Flutter Apps",
+        "App UI/UX Design",
+        "App Store Optimization (ASO)",
+        "App Testing & QA",
+        "App Maintenance",
+        "Push Notifications"
+      ],
+      "technologies": ["Swift", "Kotlin", "React Native", "Flutter", "Ionic", "Xamarin", "Firebase"],
+      "use_cases": [
+        "Business mobile apps",
+        "E-commerce apps",
+        "Social media apps",
+        "Gaming apps",
+        "Utility apps"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "details": "ERP, CRM, HRM, POS, Inventory, and custom internal systems. We develop enterprise-grade software solutions.",
+      "sub_services": [
+        "ERP Systems",
+        "CRM Solutions",
+        "HRM Software",
+        "POS Systems",
+        "Inventory Management",
+        "Accounting Software",
+        "Project Management Tools",
+        "Custom Business Software",
+        "Legacy System Migration",
+        "Software Integration"
+      ],
+      "technologies": [".NET", "Java", "Python", "C#", "Spring Boot", "Django", "PostgreSQL", "Oracle"],
+      "use_cases": [
+        "Enterprise resource planning",
+        "Customer relationship management",
+        "Human resource management",
+        "Point of sale systems",
+        "Inventory tracking"
+      ]
+    },
+    {
+      "name": "Cloud Services",
+      "details": "AWS, Google Cloud, cloud migration, and app hosting. We help businesses move to the cloud and optimize their infrastructure.",
+      "sub_services": [
+        "AWS Cloud Services",
+        "Google Cloud Platform",
+        "Microsoft Azure",
+        "Cloud Migration",
+        "Server Setup & Configuration",
+        "DevOps & CI/CD",
+        "Containerization (Docker, Kubernetes)",
+        "Cloud Security",
+        "Backup & Disaster Recovery",
+        "Cloud Cost Optimization"
+      ],
+      "technologies": ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Terraform", "Ansible", "Jenkins"],
+      "use_cases": [
+        "Application hosting",
+        "Data storage and backup",
+        "Scalable infrastructure",
+        "Microservices deployment",
+        "Cloud-native applications"
+      ]
+    },
+    {
+      "name": "UI/UX Design",
+      "details": "Wireframes, user flows, modern UI, and design systems. We create beautiful and intuitive user interfaces.",
+      "sub_services": [
+        "User Interface (UI) Design",
+        "User Experience (UX) Design",
+        "Wireframing",
+        "Prototyping",
+        "Design Systems",
+        "Brand Identity Design",
+        "Logo Design",
+        "Icon Design",
+        "Responsive Design",
+        "Design Consultation"
+      ],
+      "technologies": ["Figma", "Adobe XD", "Sketch", "InVision", "Photoshop", "Illustrator"],
+      "use_cases": [
+        "Website design",
+        "Mobile app design",
+        "Dashboard design",
+        "Brand identity",
+        "Marketing materials"
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "details": "App security audits, penetration testing, and data protection. We ensure your applications are secure and protected.",
+      "sub_services": [
+        "Security Audits",
+        "Penetration Testing",
+        "Vulnerability Assessment",
+        "Data Encryption",
+        "SSL/TLS Certificates",
+        "Firewall Configuration",
+        "Security Monitoring",
+        "Incident Response",
+        "Security Training",
+        "Compliance (GDPR, HIPAA)"
+      ],
+      "technologies": ["OWASP", "Burp Suite", "Nmap", "Metasploit", "Wireshark", "SSL/TLS"],
+      "use_cases": [
+        "Application security",
+        "Network security",
+        "Data protection",
+        "Compliance",
+        "Security consulting"
+      ]
+    },
+    {
+      "name": "Technology Consulting",
+      "details": "Business strategy, system consultancy, and startup tech guidance. We help businesses make the right technology decisions.",
+      "sub_services": [
+        "Technology Strategy",
+        "System Architecture",
+        "Tech Stack Selection",
+        "Digital Transformation",
+        "Startup Tech Guidance",
+        "IT Consulting",
+        "Code Review",
+        "Performance Optimization",
+        "Scalability Planning",
+        "Technical Documentation"
+      ],
+      "technologies": ["Various", "Architecture Patterns", "Best Practices"],
+      "use_cases": [
+        "Technology selection",
+        "System design",
+        "Digital transformation",
+        "Startup guidance",
+        "Technical audits"
+      ]
+    },
+    {
+      "name": "Data Analytics",
+      "details": "Data analysis, business intelligence, and data visualization. We turn your data into actionable insights.",
+      "sub_services": [
+        "Data Analysis",
+        "Business Intelligence",
+        "Data Visualization",
+        "Dashboard Creation",
+        "Data Warehousing",
+        "ETL Processes",
+        "Statistical Analysis",
+        "Predictive Modeling",
+        "Report Generation",
+        "Data Mining"
+      ],
+      "technologies": ["Python", "R", "Tableau", "Power BI", "SQL", "Pandas", "NumPy", "Matplotlib"],
+      "use_cases": [
+        "Business insights",
+        "Performance tracking",
+        "Decision making",
+        "Trend analysis",
+        "Reporting"
+      ]
+    },
+    {
+      "name": "Blockchain Development",
+      "details": "Smart contracts, DApps, and blockchain solutions. We develop decentralized applications and blockchain-based systems.",
+      "sub_services": [
+        "Smart Contracts",
+        "DApp Development",
+        "Cryptocurrency Wallets",
+        "NFT Development",
+        "DeFi Solutions",
+        "Blockchain Integration",
+        "Token Development",
+        "Blockchain Consulting"
+      ],
+      "technologies": ["Solidity", "Ethereum", "Web3.js", "Truffle", "Hardhat", "IPFS"],
+      "use_cases": [
+        "Cryptocurrency projects",
+        "NFT marketplaces",
+        "DeFi applications",
+        "Supply chain tracking",
+        "Digital identity"
+      ]
+    },
+    {
+      "name": "IoT Solutions",
+      "details": "Internet of Things development, sensor integration, and IoT platforms. We connect devices and create smart solutions.",
+      "sub_services": [
+        "IoT Device Development",
+        "Sensor Integration",
+        "IoT Platform Development",
+        "Edge Computing",
+        "IoT Analytics",
+        "Device Management",
+        "IoT Security",
+        "Real-time Monitoring"
+      ],
+      "technologies": ["Arduino", "Raspberry Pi", "MQTT", "Node-RED", "AWS IoT", "Azure IoT"],
+      "use_cases": [
+        "Smart homes",
+        "Industrial automation",
+        "Agriculture monitoring",
+        "Healthcare devices",
+        "Smart cities"
+      ]
+    }
   ],
 
   "project_process": {
     "english": [
-      "1. Requirement Gathering – Understanding your business needs.",
-      "2. Planning – Finalizing scope, features, and timelines.",
-      "3. UI/UX Design – Creating wireframes and modern user interface.",
-      "4. Development – Backend, frontend, and full functionality.",
-      "5. Testing – QA, bug fixing, and performance optimization.",
-      "6. Deployment – Publish on server, app store, or cloud.",
-      "7. Support & Maintenance – Ongoing updates and improvements."
+      "1. Requirement Gathering – Understanding your business needs, goals, and expectations through detailed discussions.",
+      "2. Planning & Analysis – Finalizing project scope, features, timelines, and creating detailed project documentation.",
+      "3. UI/UX Design – Creating wireframes, mockups, and modern user interface designs based on your brand identity.",
+      "4. Development – Building backend, frontend, and full functionality with regular progress updates and demos.",
+      "5. Testing & QA – Comprehensive quality assurance, bug fixing, performance optimization, and security testing.",
+      "6. Deployment – Publishing on servers, app stores, or cloud platforms with proper configuration and setup.",
+      "7. Support & Maintenance – Ongoing updates, bug fixes, feature enhancements, and 24/7 technical support."
     ],
     "urdu": [
-      "1. Requirement Gathering – Aapke business ki needs samajhna.",
-      "2. Planning – Scope, features aur timeline final karna.",
-      "3. UI/UX Design – Wireframes aur modern design banana.",
-      "4. Development – Backend aur frontend tayyar karna.",
-      "5. Testing – Bugs fix karna aur quality ensure karna.",
-      "6. Deployment – Server, app store ya cloud par launch karna.",
-      "7. Support & Maintenance – Future updates aur support."
+      "1. Requirement Gathering – Aapke business ki needs, goals aur expectations ko detail se samajhna.",
+      "2. Planning & Analysis – Project scope, features aur timeline final karna aur detailed documentation banana.",
+      "3. UI/UX Design – Wireframes, mockups aur modern design banana jo aapke brand identity ke mutabiq ho.",
+      "4. Development – Backend, frontend aur tamam functionality tayyar karna with regular updates aur demos.",
+      "5. Testing & QA – Complete quality check, bugs fix, performance improve, aur security testing.",
+      "6. Deployment – Server, app store ya cloud par launch karna with proper setup.",
+      "7. Support & Maintenance – Continuous updates, bug fixes, new features, aur 24/7 technical support."
     ]
   },
 
@@ -66,7 +355,34 @@
     "available_on_request": true,
     "portfolio_message_en": "Sure! Here is our portfolio website where you can see all our work:",
     "portfolio_message_ur": "Bilkul! Ye hamari portfolio website hai jahan aap hamara tamam kaam dekh saktay hain:",
-    "portfolio_link": "https://www.softeriosolutions.com/portfolio"
+    "portfolio_link": "https://www.softeriosolutions.com/portfolio",
+    "project_categories": [
+      "E-commerce Platforms",
+      "Mobile Applications",
+      "Web Applications",
+      "AI/ML Solutions",
+      "Enterprise Software",
+      "Dashboard & Analytics",
+      "IoT Solutions",
+      "Blockchain Projects"
+    ],
+    "notable_projects": [
+      {
+        "name": "E-commerce Platform",
+        "description": "Full-featured online store with payment integration",
+        "technologies": ["React", "Node.js", "MongoDB", "Stripe"]
+      },
+      {
+        "name": "AI Chatbot System",
+        "description": "Intelligent customer support chatbot with NLP",
+        "technologies": ["Python", "TensorFlow", "NLP", "Flask"]
+      },
+      {
+        "name": "Mobile Banking App",
+        "description": "Secure mobile banking application",
+        "technologies": ["React Native", "Node.js", "PostgreSQL"]
+      }
+    ]
   },
 
   "common_questions": {
@@ -75,66 +391,313 @@
       "What does your company do?",
       "When was your company founded?",
       "How big is your team?",
-      "Do you work internationally?"
+      "Do you work internationally?",
+      "Where is your office located?",
+      "What is your company name?",
+      "Tell me about your company",
+      "Company ka naam kya hai?",
+      "Aapki company kya karti hai?",
+      "Aapki company kab bani?",
+      "Aapke team mein kitne log hain?",
+      "Aap international projects karte hain?",
+      "Aapka office kahan hai?"
     ],
     "services": [
       "What services do you offer?",
       "Do you build websites?",
       "Do you create mobile apps?",
       "Do you develop AI systems?",
-      "Can you automate my business?"
+      "Can you automate my business?",
+      "Do you provide cloud services?",
+      "Do you do UI/UX design?",
+      "Can you develop blockchain solutions?",
+      "Aap kya services dete hain?",
+      "Kya aap websites banate hain?",
+      "Kya aap mobile apps banate hain?",
+      "Kya aap AI systems develop karte hain?",
+      "Kya aap business automation karte hain?",
+      "Kya aap cloud services dete hain?",
+      "Kya aap UI/UX design karte hain?"
     ],
     "process": [
       "How does your process work?",
       "What is the development flow?",
       "Do you give documentation?",
-      "Do you sign NDA?"
+      "Do you sign NDA?",
+      "How do you handle projects?",
+      "What is your development methodology?",
+      "Aapka process kya hai?",
+      "Development kaise hoti hai?",
+      "Kya aap documentation dete hain?",
+      "Kya aap NDA sign karte hain?",
+      "Aap projects kaise handle karte hain?"
     ],
     "timeline": [
       "How long will my project take?",
       "What is the delivery time?",
-      "Can you do fast delivery?"
+      "Can you do fast delivery?",
+      "What is the typical timeline?",
+      "How quickly can you deliver?",
+      "Project kitne time mein complete hoga?",
+      "Delivery time kya hai?",
+      "Kya aap jaldi delivery kar sakte hain?",
+      "Typical timeline kya hai?"
     ],
     "technical": [
       "Which technologies do you use?",
       "Do you provide hosting?",
       "Will I get source code?",
-      "Do you provide maintenance?"
+      "Do you provide maintenance?",
+      "What programming languages do you use?",
+      "Which frameworks do you prefer?",
+      "Aap kaun si technologies use karte hain?",
+      "Kya aap hosting provide karte hain?",
+      "Kya mujhe source code milega?",
+      "Kya aap maintenance provide karte hain?",
+      "Aap kaun se programming languages use karte hain?"
     ],
     "support": [
       "Do you provide customer support?",
       "Can I request changes?",
-      "How many revisions do you offer?"
+      "How many revisions do you offer?",
+      "What is your support policy?",
+      "Do you offer post-launch support?",
+      "Kya aap customer support dete hain?",
+      "Kya main changes request kar sakta hoon?",
+      "Kitne revisions milte hain?",
+      "Support policy kya hai?"
     ],
     "portfolio": [
       "Do you have a portfolio?",
       "Can I see your past work?",
-      "Show me your portfolio"
+      "Show me your portfolio",
+      "What projects have you completed?",
+      "Kya aapke paas portfolio hai?",
+      "Kya main aapka past work dekh sakta hoon?",
+      "Mujhe portfolio dikhao",
+      "Aapne kaun se projects complete kiye hain?"
     ],
     "team": [
       "How experienced is your team?",
       "Do you have dedicated developers?",
-      "Can I hire monthly developers?"
+      "Can I hire monthly developers?",
+      "What is your team structure?",
+      "Aapki team kitni experienced hai?",
+      "Kya aapke paas dedicated developers hain?",
+      "Kya main monthly developers hire kar sakta hoon?",
+      "Team structure kya hai?"
     ],
     "communication": [
       "How can I contact you?",
       "Do you have WhatsApp?",
       "Can we talk on a call?",
-      "Do you have email support?"
+      "Do you have email support?",
+      "What are your contact details?",
+      "Aap se kaise contact kar sakte hain?",
+      "Kya aapke paas WhatsApp hai?",
+      "Kya hum call par baat kar sakte hain?",
+      "Kya aap email support dete hain?",
+      "Contact details kya hain?"
     ],
     "payment": [
       "How do I pay?",
       "Do you provide invoice?",
       "Do you take advance payment?",
-      "Do you accept international payments?"
+      "Do you accept international payments?",
+      "What payment methods do you accept?",
+      "Payment kaise karni hai?",
+      "Kya aap invoice dete hain?",
+      "Kya aap advance payment lete hain?",
+      "Kya aap international payments accept karte hain?",
+      "Kaun se payment methods accept hain?"
+    ],
+    "pricing": [
+      "What are your prices?",
+      "How much does it cost?",
+      "What is your pricing model?",
+      "Do you have packages?",
+      "Kitna paisa lagega?",
+      "Price kya hai?",
+      "Pricing model kya hai?",
+      "Kya aapke paas packages hain?"
+    ],
+    "quality": [
+      "How do you ensure quality?",
+      "Do you test your code?",
+      "What is your quality assurance process?",
+      "Aap quality kaise ensure karte hain?",
+      "Kya aap code test karte hain?",
+      "Quality assurance process kya hai?"
+    ],
+    "security": [
+      "How secure is your development?",
+      "Do you follow security best practices?",
+      "How do you protect client data?",
+      "Aapka development kitna secure hai?",
+      "Kya aap security best practices follow karte hain?",
+      "Client data kaise protect karte hain?"
     ]
   },
 
   "faq_answers": {
-    "nda": "Yes, we provide NDA for all confidential projects.",
-    "delivery": "Delivery timeline depends on project size, features, and complexity.",
-    "source_code": "Yes, you will get full source code upon project completion.",
-    "support": "We offer long-term support and maintenance packages.",
-    "communication": "You can contact us on WhatsApp, Email, or Google Meet anytime."
+    "nda": "Yes, we provide NDA for all confidential projects. We understand the importance of protecting your business ideas and intellectual property.",
+    "delivery": "Delivery timeline depends on project size, features, and complexity. Simple websites take 2-4 weeks, while complex applications may take 2-6 months. We provide detailed timelines during project planning.",
+    "source_code": "Yes, you will get full source code upon project completion. All code, documentation, and assets are delivered to you.",
+    "support": "We offer long-term support and maintenance packages. Our support includes bug fixes, updates, security patches, and feature enhancements.",
+    "communication": "You can contact us on WhatsApp, Email, or Google Meet anytime. We maintain regular communication throughout the project.",
+    "pricing": "Pricing depends on project requirements. We provide detailed quotes after understanding your needs. Contact us for accurate pricing.",
+    "technologies": "We use modern technologies like React, Node.js, Python, AI/ML frameworks, cloud platforms, and more based on project requirements.",
+    "team_experience": "Our team has 5+ years of average experience. We have experts in AI/ML, web development, mobile apps, cloud, and cybersecurity.",
+    "revisions": "We offer unlimited revisions during development and 3-6 months of free support after project completion.",
+    "hosting": "Yes, we can provide hosting services. We set up and configure servers on AWS, Google Cloud, or Azure based on your needs.",
+    "maintenance": "We offer maintenance packages starting from $100/month. This includes bug fixes, updates, security patches, and technical support.",
+    "international": "Yes, we work with clients from Pakistan, USA, UK, UAE, Canada, Australia, and many other countries.",
+    "payment_terms": "We accept 50% advance payment and 50% on project completion. For long-term projects, we offer milestone-based payments.",
+    "timeline": "Simple projects: 2-4 weeks, Medium projects: 1-3 months, Complex projects: 3-6 months. Exact timeline provided after requirement analysis.",
+    "quality": "We follow industry best practices, conduct thorough testing, code reviews, and use automated testing tools to ensure high quality.",
+    "security": "We implement security best practices including encryption, secure authentication, regular security audits, and compliance with data protection regulations."
+  },
+
+  "testimonials": [
+    {
+      "client_name": "John Smith",
+      "company": "TechCorp Inc.",
+      "project": "E-commerce Platform",
+      "rating": 5,
+      "comment": "Softerio Solutions delivered an excellent e-commerce platform. Their team was professional, responsive, and the quality was outstanding.",
+      "language": "english"
+    },
+    {
+      "client_name": "Ahmed Ali",
+      "company": "Local Business",
+      "project": "Mobile App",
+      "rating": 5,
+      "comment": "Unhone hamare liye ek behtareen mobile app banaya. Team bahut professional thi aur har step par communication maintain kiya.",
+      "language": "urdu"
+    },
+    {
+      "client_name": "Sarah Johnson",
+      "company": "StartupXYZ",
+      "project": "AI Chatbot",
+      "rating": 5,
+      "comment": "The AI chatbot they developed has significantly improved our customer service. Highly recommended!",
+      "language": "english"
+    },
+    {
+      "client_name": "Muhammad Hassan",
+      "company": "Enterprise Solutions",
+      "project": "ERP System",
+      "rating": 5,
+      "comment": "Softerio Solutions ne hamare liye ek complete ERP system develop kiya. Unka kaam bahut hi professional hai.",
+      "language": "urdu"
+    }
+  ],
+
+  "technology_stack": {
+    "frontend": ["React", "Vue.js", "Angular", "Next.js", "HTML5", "CSS3", "JavaScript", "TypeScript", "Tailwind CSS", "Bootstrap"],
+    "backend": ["Node.js", "Python", "Django", "Flask", "Laravel", "PHP", ".NET", "Java", "Spring Boot", "Express.js"],
+    "databases": ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Firebase", "Oracle", "SQLite"],
+    "mobile": ["React Native", "Flutter", "Swift", "Kotlin", "Ionic", "Xamarin"],
+    "ai_ml": ["TensorFlow", "PyTorch", "Scikit-learn", "OpenAI GPT", "BERT", "SpaCy", "NLTK", "Keras"],
+    "cloud": ["AWS", "Google Cloud", "Azure", "Docker", "Kubernetes", "Terraform"],
+    "tools": ["Git", "GitHub", "GitLab", "Jira", "Slack", "Figma", "Postman", "Jenkins", "CI/CD"]
+  },
+
+  "case_studies": [
+    {
+      "title": "E-commerce Platform Development",
+      "client": "Retail Company",
+      "challenge": "Need for a scalable online store with payment integration",
+      "solution": "Developed full-stack e-commerce platform with React frontend, Node.js backend, and integrated payment gateways",
+      "results": "Increased online sales by 300%, improved user experience, and reduced cart abandonment rate",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe", "AWS"]
+    },
+    {
+      "title": "AI-Powered Customer Support",
+      "client": "Service Company",
+      "challenge": "High volume of customer queries requiring 24/7 support",
+      "solution": "Developed intelligent chatbot using NLP and machine learning to handle customer queries automatically",
+      "results": "Reduced support tickets by 70%, improved response time, and increased customer satisfaction",
+      "technologies": ["Python", "TensorFlow", "NLP", "Flask", "OpenAI"]
+    },
+    {
+      "title": "Mobile Banking Application",
+      "client": "Financial Institution",
+      "challenge": "Need for secure and user-friendly mobile banking solution",
+      "solution": "Developed cross-platform mobile app with React Native, implemented advanced security features and biometric authentication",
+      "results": "Increased mobile banking users by 250%, improved security, and enhanced user experience",
+      "technologies": ["React Native", "Node.js", "PostgreSQL", "Biometric Auth", "Encryption"]
+    }
+  ],
+
+  "industries_served": [
+    "E-commerce & Retail",
+    "Healthcare",
+    "Finance & Banking",
+    "Education",
+    "Real Estate",
+    "Manufacturing",
+    "Logistics & Transportation",
+    "Food & Beverage",
+    "Entertainment",
+    "Government",
+    "Non-Profit",
+    "Startups"
+  ],
+
+  "awards_certifications": [
+    "ISO 9001:2015 Certified",
+    "Best AI/ML Solutions Provider 2023",
+    "Top Web Development Company",
+    "Excellence in Mobile App Development",
+    "Customer Choice Award 2023"
+  ],
+
+  "partnerships": [
+    "AWS Partner",
+    "Google Cloud Partner",
+    "Microsoft Azure Partner",
+    "OpenAI Partner",
+    "Stripe Partner"
+  ],
+
+  "working_hours": {
+    "timezone": "PKT (Pakistan Standard Time)",
+    "business_hours": "Monday to Friday: 9:00 AM - 6:00 PM",
+    "support_hours": "24/7 Support Available",
+    "response_time": "Within 2-4 hours during business hours"
+  },
+
+  "social_proof": {
+    "google_rating": 4.8,
+    "clutch_rating": 4.9,
+    "upwork_rating": 5.0,
+    "total_reviews": 150,
+    "satisfaction_rate": "98%"
+  },
+
+  "additional_info": {
+    "company_values": [
+      "Quality First",
+      "Client Satisfaction",
+      "Innovation",
+      "Transparency",
+      "Reliability",
+      "Continuous Improvement"
+    ],
+    "mission": "To empower businesses with cutting-edge technology solutions that drive growth and success.",
+    "vision": "To be the leading technology solutions provider globally, known for innovation, quality, and client success.",
+    "why_choose_us": [
+      "Experienced team with 5+ years average experience",
+      "100+ successful projects completed",
+      "98% client satisfaction rate",
+      "24/7 support and maintenance",
+      "Competitive pricing",
+      "Modern technology stack",
+      "Agile development methodology",
+      "Transparent communication",
+      "On-time delivery",
+      "Post-launch support"
+    ]
   }
 }
